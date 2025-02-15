@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+
+    <div class="main-content">
+        <form id="form">
+            <input type="text" id="city" placeholder="Enter city" required>
+            <button type="button" id="check-weather-btn">Check Weather</button>
+        </form>
+        
+        <div id="weather-output"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script> <!-- Link to the app.js file -->
+</body>
+</html>
